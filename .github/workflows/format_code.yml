@@ -24,13 +24,13 @@ jobs:
       
       - name: Install Dependencies
         run: poetry install
-
-      - name: autoflake
-        run: autoflake -r .
+        
       - name: black
-        run: black
+        run: poetry run black .
+      - name: autoflake
+        run: poetry run autoflake -r .
       - name: isort
-        run: isort .
+        run: poetry run isort .
         
       - name: Auto Commit
         uses: stefanzweifel/git-auto-commit-action@v5
