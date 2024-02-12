@@ -1,4 +1,4 @@
-def add(a:int, b:int)->int:
+def add(a: int, b: int) -> int:
     """足し算を実行する
 
     Args:
@@ -8,7 +8,8 @@ def add(a:int, b:int)->int:
     Returns:
         int: a+b
     """
-    return a+b
+    return a + b
+
 
 if __name__ == "__main__":
     a, b = 3, 5
