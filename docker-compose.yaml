@@ -2,7 +2,7 @@ version: "3.8"
 services:
   py3.12-no-gpu:
     build: .
-    restart: always
+    # restart: always
     tty: true
     #entrypoint: >
     #  jupyter-lab --allow-root --ip=0.0.0.0 --port=8888 --no-browser --NotebookApp.token='' 
