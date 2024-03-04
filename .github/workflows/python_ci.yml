@@ -32,7 +32,7 @@ jobs:
               run: poetry run flake8
 
             - name: pylint
-              run: poetry run pylint .
+              run: poetry run pylint src/
 
             - name: mypy
               run: poetry run mypy .

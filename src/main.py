@@ -1,9 +1,12 @@
+"""This is main program."""
+
+
 def add(a: int, b: int) -> int:
-    """足し算を実行する
+    """add a and b
 
     Args:
-        a (int): 整数
-        b (int): 整数
+        a (int): number
+        b (int): number
 
     Returns:
         int: a+b
@@ -12,5 +15,5 @@ def add(a: int, b: int) -> int:
 
 
 if __name__ == "__main__":
-    a, b = 3, 5
-    print(f"{a}+{b}={add(a, b)}")
+    x, y = 3, 5
+    print(f"{x}+{y}={add(x, y)}")
