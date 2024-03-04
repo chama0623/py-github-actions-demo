@@ -1,5 +1,6 @@
 """This is main program."""
 
+
 def add(a: int, b: int) -> int:
     """add a and b
 
